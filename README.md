@@ -4,9 +4,9 @@
  
 **Project name**: NoSQL Challenge
 
-**Description**: This project purpose was to test skills learned with MongoDB and Mongoose, further develop node.js and express skills.
+**Description**: This project purpose was to test skills learned with Progressive Web Application (PWA).
 
-**Special Notes**: this project is command line applicatoin. the modules used are: express and mongoose.
+**Special Notes**: this project is deployed in Azure Cloud using Heroku App. the modules used are: express, mongoose, compression, morgan. This is using MondoDB.
 
 **Installation**: 	
 
@@ -14,11 +14,11 @@ Access Github repository here: https://github.com/cjsmith1988/budget-tracker/
 
 Access live App here: https://curts-budget-tracker.herokuapp.com/
 
-**Usage**: This was used for testing MongoDB and Mongoose package.
+**Usage**: This was used for testing Progressive Web Application techniques.
 
 **Contributing**: open for contribution, keep in seperate branch
 
-**Credits**: This page was made by Curtis Smith
+**Credits**: This page was made by Curtis Smith 2021
 
 **License**: MIT License
 

@@ -48,5 +48,6 @@ THEN the deposits or expenses added while they were offline are added to their t
 
   If you have any further questions regarding this project please email: [cj1988333@hotmail.com](mailto:cj1988333@hotmail.com?subject=[Question]Budget-Tracker).
 
-![Get Thoughts](https://github.com/cjsmith1988/social-network-API/blob/main/public/images/ScrenGrabGetThoughts.PNG?raw=true)
+![download app](https://github.com/cjsmith1988/social-network-API/blob/main/public/images/budgetAppNotify.PNG?raw=true)
+![application screen shot](https://github.com/cjsmith1988/social-network-API/blob/main/public/images/budgetAppScreenGrab.PNG?raw=true)
 

@@ -4,9 +4,9 @@
  
 **Project name**: NoSQL Challenge
 
-**Description**: This project purpose was to test skills learned with MongoDB and Mongoose, further develop node.js and express skills.
+**Description**: This project purpose was to test skills learned with Progressive Web Application (PWA).
 
-**Special Notes**: this project is command line applicatoin. the modules used are: express and mongoose.
+**Special Notes**: this project is deployed in Salesforce Cloud using Heroku App. the modules used are: express, mongoose, compression, morgan. This is using MondoDB.
 
 **Installation**: 	
 
@@ -14,11 +14,11 @@ Access Github repository here: https://github.com/cjsmith1988/budget-tracker/
 
 Access live App here: https://curts-budget-tracker.herokuapp.com/
 
-**Usage**: This was used for testing MongoDB and Mongoose package.
+**Usage**: This was used for testing Progressive Web Application techniques.
 
 **Contributing**: open for contribution, keep in seperate branch
 
-**Credits**: This page was made by Curtis Smith
+**Credits**: This page was made by Curtis Smith 2021
 
 **License**: MIT License
 
@@ -48,5 +48,6 @@ THEN the deposits or expenses added while they were offline are added to their t
 
   If you have any further questions regarding this project please email: [cj1988333@hotmail.com](mailto:cj1988333@hotmail.com?subject=[Question]Budget-Tracker).
 
-![Get Thoughts](https://github.com/cjsmith1988/social-network-API/blob/main/public/images/ScrenGrabGetThoughts.PNG?raw=true)
+![download app](https://github.com/cjsmith1988/budget-tracker/blob/main/public/images/budgetAppNotify.PNG?raw=true)
+![application screen shot](https://github.com/cjsmith1988/budget-tracker/blob/main/public/images/budgetAppScreenGrab.PNG?raw=true)
 

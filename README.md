@@ -6,7 +6,7 @@
 
 **Description**: This project purpose was to test skills learned with Progressive Web Application (PWA).
 
-**Special Notes**: this project is deployed in Azure Cloud using Heroku App. the modules used are: express, mongoose, compression, morgan. This is using MondoDB.
+**Special Notes**: this project is deployed in Salesforce Cloud using Heroku App. the modules used are: express, mongoose, compression, morgan. This is using MondoDB.
 
 **Installation**: 	
 

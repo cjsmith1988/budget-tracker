@@ -6,6 +6,8 @@ const FILES_TO_CACHE = [
   "css/styles.css",
   "js/index.js",
   "js/idb.js",
+  "manifest.json",
+  "service-worker.js"
 ];
 
 // Respond with cached resources

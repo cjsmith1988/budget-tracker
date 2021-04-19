@@ -82,16 +82,16 @@ function sendTransaction(isAdding) {
   let nameEl = document.querySelector("#t-name");
   let amountEl = document.querySelector("#t-amount");
   let errorEl = document.querySelector(".form .error");
-
+  
   // validate form
   if (nameEl.value === "" || amountEl.value === "") {
     errorEl.textContent = "Missing Information";
-    return;
+     return setTimeout(function(){ errorEl.textContent = ""; }, 5000);
   }
   else {
     errorEl.textContent = "";
   }
-
+  
   // create record
   let transaction = {
     name: nameEl.value,
@@ -137,12 +137,19 @@ function sendTransaction(isAdding) {
   .catch(err => {
     // fetch failed, so save in indexed db
     saveRecord(transaction);
-
+    if (!isAdding) {
+      errorEl.textContent = "*Offline- Your expense has been added";
+    } else{
+      errorEl.textContent = "*Offline- Your deposit has been added";
+    }
+    setTimeout(function(){ errorEl.textContent = ""; }, 7000);
     // clear form
     nameEl.value = "";
     amountEl.value = "";
   });
 }
+
+
 
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
